@@ -1,0 +1,25 @@
+PROJECT TARGET:
+    - input data is stock prices / exchange rates with minute / hourly freq
+    - build stock price (close) prediciton model using reservoir computing models and compare it to statistical models
+    - project results in 'fake paper'
+    - finish by the end of december
+
+
+TODO:
+    DATA:
+        - different companies's stock prices,
+        - different data frequency (1, 5, 15, 30, 60 minutes),
+        - different sliding window size,
+        - different prediction horizon, t-steps ahead,
+        - firstly try out raw OHLCV (Open, High, Low, Close, Volume) data, can experiment later with feature engineering,
+
+    MODEL:
+        - different reservoir computing models, Echo State Network (ESN), Liquid State Network (LSN),
+        - different statistical models ARIMA, PROPEHT
+        - different reservoir initialisation strategies,
+        - different reservoir regularization strategies,
+        - different results agregation,
+        - sth holdout?
+
+    METRIC:
+        - RMSE
